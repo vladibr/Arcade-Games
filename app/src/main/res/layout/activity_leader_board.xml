@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LeaderBoard"
+    android:weightSum="20"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_weight="20"
+    android:background="@drawable/leaderboard_backround"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="Leaderboards"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/light_blue"
+        android:background="@color/blue"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/colors_game_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="@string/colors"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:background="#FF9E38"/>
+        <Button
+            android:id="@+id/finger_me_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="@string/finger"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:background="@color/light_blue"/>
+        <Button
+            android:id="@+id/seven_boom_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="@string/boom"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:background="@color/light_blue"/>
+        <Button
+            android:id="@+id/number_memory_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="@string/memory"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:background="@color/light_blue"/>
+        <Button
+            android:id="@+id/word_game_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="@string/words"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:background="@color/light_blue"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:weightSum="15"
+        android:orientation="vertical">
+
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"/>
+
+        <Button
+            android:id="@+id/exit_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="@string/exit"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

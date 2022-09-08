@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "355021339182",
+    "project_id": "arcade-game-8058c",
+    "storage_bucket": "arcade-game-8058c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355021339182:android:aaee8ae601e379c8fbfdbf",
+        "android_client_info": {
+          "package_name": "com.example.arcade_game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355021339182-5idtrj4rb9h38musvrklp8lq3l9hh35r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZDdRMcmAPlP3r730FHv6TD0FZPTMXeC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355021339182-5idtrj4rb9h38musvrklp8lq3l9hh35r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WordsGame"
+    android:layout_weight="20"
+    android:weightSum="20"
+    android:background="@drawable/words_game_backround"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:weightSum="4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:weightSum="4"
+            android:orientation="horizontal">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/heart1"
+                android:layout_width="40dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.5"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/neon_heart"
+                android:layout_gravity="center"/>
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/heart2"
+                android:layout_width="40dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.5"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/neon_heart"
+                android:layout_gravity="center"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/heart3"
+                android:layout_width="40dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.5"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/neon_heart"
+                android:layout_gravity="center"/>
+
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:layout_marginTop="25dp"
+                android:text="0"
+                android:textSize="50sp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="13"
+        android:weightSum="13"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:weightSum="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/word"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text="@string/word"
+                    android:textSize="40sp"
+                    android:textColor="@color/white"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:weightSum="4"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25"/>
+
+                <Button
+                    android:id="@+id/seen_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:background="#7995f8"
+                    android:text="@string/seen"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"/>
+
+                <Button
+                    android:id="@+id/new_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:background="#fb77d6"
+                    android:text="new"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+
+        <Button
+            android:id="@+id/exit_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="25dp"
+            android:text="@string/exit"
+            android:background="@drawable/button"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

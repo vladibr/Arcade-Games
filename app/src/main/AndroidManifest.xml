@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.arcade_game">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/arcade_game"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/arcade_game_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Arcade_Game">
+        <activity
+            android:name=".LeaderBoard"
+            android:exported="false" />
+        <activity
+            android:name=".CrackTheEgg"
+            android:exported="false" />
+        <activity
+            android:name=".ArcadeGames"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".ColorsGame"
+            android:exported="false" />
+        <activity android:name=".FingerMe" />
+        <activity android:name=".NumberMemory" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".WordsGame" />
+        <activity android:name=".SevenBoom" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
